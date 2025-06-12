@@ -1,5 +1,6 @@
-![Screenshot](./vesper.png)
+Default font + bring back gradients! Accent is now again Spotify green, u can always change it via marketplace theme editor :|
 
+Original description:
 # Vesper
 
 ~~Peppermint~~ and orange flavored dark theme for ~~VSCode~~ Spotify.
