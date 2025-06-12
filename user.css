@@ -28,14 +28,14 @@
 }
 
 .lyrics-lyrics-contentContainer .lyrics-lyricsContent-lyric.lyrics-lyricsContent-highlight { 
-  filter: blur(2px) brightness(0.5); padding: 15px; 
+  filter: blur(2px) brightness(0.8); padding: 4px; 
   font-size: 75%;
 } 
 .lyrics-lyrics-contentContainer .lyrics-lyricsContent-lyric.lyrics-lyricsContent-active { 
-  filter: none; padding: 20px; font-size: 90%;
+  filter: none; padding-bottom: 36px; padding-top: 36px; font-size: 90%;
 } 
 .lyrics-lyrics-contentContainer .lyrics-lyricsContent-lyric { 
-  filter: blur(2px) brightness(0.5); padding: 15px; 
+  filter: blur(2px) brightness(0.5); padding: 4px; 
   font-size: 75%;
 } 
 .lyrics-lyrics-contentContainer .lyrics-lyricsContent-lyric.lyrics-lyricsContent-unsynced { 
