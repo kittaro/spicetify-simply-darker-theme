@@ -10,3 +10,13 @@
 
 
 /* is this file really necessary? */
+
+.lyrics-lyrics-background {
+  visibility: hidden !important;
+}
+
+/* scrollbar hide */
+
+/* .os-scrollbar.os-scrollbar-handle-interactive .os-scrollbar-handle, .os-scrollbar.os-scrollbar-track-interactive .os-scrollbar-track{
+  width: 0 !important;
+} */
