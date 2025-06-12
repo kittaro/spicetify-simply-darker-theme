@@ -1,6 +1,7 @@
 # Simply darker! (edited Vesper)
 Very lightweight theme
 _**NOW** - with cool lyrics_ 😼 (thanks for idea: 'Better Lyrics style' snippet)
+
 Default font + bring back gradients! Accent is now again Spotify green, u can always change it via marketplace theme editor :|
 
 # Preview
