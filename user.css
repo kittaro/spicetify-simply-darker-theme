@@ -53,3 +53,14 @@
   opacity: 0;
 }
 
+/* .spotify__container--is-desktop:not(.fullscreen) body::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    z-index: 999;
+    backdrop-filter: brightness(2.12);
+    width: 162px;
+    height: 38px;
+    top: 12px;
+} */
+/* bruh windows users */
