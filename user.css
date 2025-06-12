@@ -15,8 +15,41 @@
   visibility: hidden !important;
 }
 
-/* scrollbar hide */
+/* Better lyrics style */
 
-/* .os-scrollbar.os-scrollbar-handle-interactive .os-scrollbar-handle, .os-scrollbar.os-scrollbar-track-interactive .os-scrollbar-track{
-  width: 0 !important;
-} */
+.lyrics-lyricsContent-lyric {
+    transition: 0.1s cubic-bezier(.47,1.64,.41,.8); /* mmmmm bouncyyyyy */
+}
+
+.lyrics-lyrics-contentContainer .lyrics-lyrics-contentWrapper {
+    margin-left: 3vh;
+    align-self: flex-start;
+    width: fit-content;
+}
+
+.lyrics-lyrics-contentContainer .lyrics-lyricsContent-lyric.lyrics-lyricsContent-highlight { 
+  filter: blur(2px) brightness(0.5); padding: 15px; 
+  font-size: 75%;
+} 
+.lyrics-lyrics-contentContainer .lyrics-lyricsContent-lyric.lyrics-lyricsContent-active { 
+  filter: none; padding: 20px; font-size: 90%;
+} 
+.lyrics-lyrics-contentContainer .lyrics-lyricsContent-lyric { 
+  filter: blur(2px) brightness(0.5); padding: 15px; 
+  font-size: 75%;
+} 
+.lyrics-lyrics-contentContainer .lyrics-lyricsContent-lyric.lyrics-lyricsContent-unsynced { 
+  filter: brightness(0.6); padding: 10px;
+
+  font-size: 75%;
+}
+
+.lyrics-lyricsContent-provider {
+  filter: brightness(0.5)
+}
+
+.os-scrollbar.os-scrollbar-handle-interactive .os-scrollbar-handle, .os-scrollbar.os-scrollbar-track-interactive .os-scrollbar-track{
+  /* width: 0 !important; */
+  opacity: 0;
+}
+
