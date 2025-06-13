@@ -1,7 +1,7 @@
 {
     "name": "Simply darker!",
     "description": "Even more convincing dark/black theme for Spotify. Based on port of the Vesper VSCode theme by bdsqqq.",
-    "preview": "preview_dark.png",
+    "preview": "assets/preview_dark.png",
     "readme": "README.md",
     "usercss": "user.css",
     "schemes": "color.ini",
