@@ -1,13 +1,14 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap");
-
-* {
-  font-family: "Geist mono", monospace !important;
-} */
-
+/* @import url("");
 /* {
   font-family: "Segoe UI", monospace !important;
 } */
 
+/* Removing gradients */
+/* .main-entityHeader-backgroundColor,
+.main-actionBarBackground-background {
+  background-color: unset !important;
+  background-image: none;
+} */
 
 /* is this file really necessary? */
 
@@ -62,8 +63,11 @@
   filter: brightness(0.5)
 }
 
+/* hide scrollbar */
 .os-scrollbar.os-scrollbar-handle-interactive .os-scrollbar-handle, .os-scrollbar.os-scrollbar-track-interactive .os-scrollbar-track{
   /* width: 0 !important; */
+
+  /* just opacity to keep scrollbar working */
   opacity: 0;
 }
 
