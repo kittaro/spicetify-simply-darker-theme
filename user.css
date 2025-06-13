@@ -24,20 +24,34 @@
 .lyrics-lyrics-contentContainer .lyrics-lyrics-contentWrapper {
     margin-left: 3vh;
     align-self: flex-start;
+
+    /* mute margin-left & align-self to fix centering */
+    /* text-align: center; */
     width: fit-content;
 }
 
+.lyrics-lyrics-contentContainer .lyrics-lyricsContent-lyric.lyrics-lyricsContent-highlight:hover {
+  filter: blur(0);
+  transition: 0.1s linear;
+}
 .lyrics-lyrics-contentContainer .lyrics-lyricsContent-lyric.lyrics-lyricsContent-highlight { 
-  filter: blur(2px) brightness(0.8); padding: 4px; 
+  filter: blur(5px) brightness(0.4); padding: 4px; 
   font-size: 75%;
 } 
+
 .lyrics-lyrics-contentContainer .lyrics-lyricsContent-lyric.lyrics-lyricsContent-active { 
-  filter: none; padding-bottom: 36px; padding-top: 36px; font-size: 90%;
+  filter: none; padding-bottom: 38px; padding-top: 38px; font-size: 90%;
 } 
+
+.lyrics-lyrics-contentContainer .lyrics-lyricsContent-lyric:hover {
+  filter: blur(0);
+  transition: 0.1s linear;
+}
 .lyrics-lyrics-contentContainer .lyrics-lyricsContent-lyric { 
-  filter: blur(2px) brightness(0.5); padding: 4px; 
+  filter: blur(1.5px) brightness(0.5); padding: 4px; 
   font-size: 75%;
 } 
+
 .lyrics-lyrics-contentContainer .lyrics-lyricsContent-lyric.lyrics-lyricsContent-unsynced { 
   filter: brightness(0.6); padding: 10px;
 

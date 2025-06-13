@@ -2,6 +2,8 @@
 Very lightweight theme
 _**NOW** - with cool lyrics_ 😼 (thanks for idea: 'Better Lyrics style' snippet)
 
+_psss_ if you want centered lyrics mute some strings in user.css
+
 Default font + bring back gradients! Accent is now again Spotify green, u can always change it via marketplace theme editor :|
 
 # Preview
