@@ -1,20 +1,58 @@
-/* @import url("");
+/* @import url("https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap");
+
+* {
+  font-family: "Geist mono", monospace !important;
+} */
+
 /* {
   font-family: "Segoe UI", monospace !important;
 } */
 
+
 /* Removing gradients */
+
+/* playlist page? */
+/* .main-home-homeHeader - hide home page gradient on top */
+/* , .main-entityHeader-container, - hide banner images like in daylist */
 /* .main-entityHeader-backgroundColor,
 .main-actionBarBackground-background {
   background-color: unset !important;
   background-image: none;
 } */
 
+/* album page */
+/* .XVz4BMGP5zAEE5p90mYK, .blfR_YJUsKUvdgTejBSb, .Bdcf5g__Rug3TGqSdbiy {
+  --background-base: unset !important; 
+  --background-base-min-contrast: unset !important;
+  --background-base-70: unset !important;
+  --text-subdued: var(--text-subdued) !important;
+} */
+
+ /* artist page */
+/* .Bdcf5g__Rug3TGqSdbiy {
+  --background-base-70: unset !important;
+  --text-subdued: var(--text-subdued) !important;
+} */
+
+
+/* white text instead of accented color - doesnt work&
+.encore-internal-color-text-subdued {
+  color: var(--text-subdued) !important;
+} */
+
+/* top bar color link */
+.main-topBar-background,
+.main-home-filterChipsSection  {
+  background-color: var(--spice-sidebar) !important;
+}
+
+
 /* is this file really necessary? */
 
 .lyrics-lyrics-background {
   visibility: hidden !important;
 }
+
 
 /* Better lyrics style */
 
@@ -63,11 +101,8 @@
   filter: brightness(0.5)
 }
 
-/* hide scrollbar */
 .os-scrollbar.os-scrollbar-handle-interactive .os-scrollbar-handle, .os-scrollbar.os-scrollbar-track-interactive .os-scrollbar-track{
   /* width: 0 !important; */
-
-  /* just opacity to keep scrollbar working */
   opacity: 0;
 }
 
