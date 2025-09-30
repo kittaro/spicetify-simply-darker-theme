@@ -116,9 +116,9 @@
     height: 38px;
     top: 12px;
 } */
-/* bruh windows users */
+/* bruh windows users - hide if you dont use windows */
 
-/* .spotify__container--is-desktop:not(.fullscreen) body::after {
+.spotify__container--is-desktop:not(.fullscreen) body::after {
     content: "";
     position: absolute;
     right: 0;
@@ -127,5 +127,5 @@
     width: 162px;
     height: 63px;
     top: 0px;
-} */
-/* if bar higer in your app */
+}
+/* if bar higer in your app - hide if you dont use windows */
