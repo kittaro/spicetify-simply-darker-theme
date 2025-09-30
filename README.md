@@ -11,7 +11,7 @@ Some strings commented out in `user.css`: *remove gradients?* *change font?* or 
 ### Black
 ![Black](./assets/preview_black.png)
 
-### Dark
+### DarkOld (there is also basic "Dark" with dimmer colors)
 ![Dark](./assets/preview_dark.png)
 ![Lyrics](./assets/preview_lyrics.png)
 
