@@ -46,8 +46,11 @@
   background-color: var(--spice-sidebar) !important;
 }
 
-
-/* is this file really necessary? */
+/* force cinema mode background color to default black from theme */
+[style*="--cinema-mode-bg-color-to"] {
+  --cinema-mode-bg-color-to: var(--background-base) !important;
+  --cinema-mode-bg-color-from: var(--background-base) !important;
+}
 
 .lyrics-lyrics-background {
   visibility: hidden !important;
