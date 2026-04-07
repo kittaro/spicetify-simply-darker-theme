@@ -4,8 +4,10 @@ _**NOW** - with cool lyrics_ 😼 (thanks for idea: 'Better Lyrics style' snippe
 
 Default font + bring back gradients! Accent is now again Spotify green, you can always change it via marketplace theme editor :|
 
+By default (background under buttons for windows) is tuned for app scale **80%**, so set it to that if you want to use it unchanged from marketplace without issues.
+
 ### _And little more_
-Some strings commented out in `user.css`: *remove gradients?* *change font?* or maybe *center lyrics?* or even *hide ugly background under window control buttons?* - **Do it!**  
+Some strings commented out in `user.css`: *remove gradients?* *change font?* or maybe *center lyrics?* or even *hide ugly background under window control buttons?* - **some things can be tweaked!**  
 
 ## Preview
 ### Black
