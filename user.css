@@ -45,6 +45,11 @@
 .main-home-filterChipsSection  {
   background-color: var(--spice-sidebar) !important;
 }
+/* disable ~NeW coooool~ (no) dark overlay on filter chips and top bar */
+.main-home-filterChipsSection::after,
+.main-topBar-overlay {
+  background-color: transparent !important;
+}
 
 /* force cinema mode background color to default black from theme */
 [style*="--cinema-mode-bg-color-to"] {
